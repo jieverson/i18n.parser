@@ -23,6 +23,7 @@ fs.readFile(file_name, 'utf-8', (err, buf) => {
                 if( !text
                     || text[0] === '#'
                     || text[0] === '.'
+                    || text === 'undefined'
                     || text.includes('/')
                     || text.includes('[[['))
                     return match
