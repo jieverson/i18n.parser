@@ -1,0 +1,19 @@
+{
+  "name": "i18n.parser",
+  "version": "1.0.0",
+  "description": "```\r for f in ./ViewModel/*/*.js; do node ~/projects/i18n.parser/parser.js $f; done\r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jieverson/i18n.parser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jieverson/i18n.parser/issues"
+  },
+  "homepage": "https://github.com/jieverson/i18n.parser#readme"
+}
