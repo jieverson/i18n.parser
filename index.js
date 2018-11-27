@@ -1,6 +1,7 @@
 const fs = require('fs')
 
 const whitelist = require('./whitelist.js')
+const replace = require('./replace.js')
 
 const file_name = process.argv[2]
 
@@ -11,7 +12,7 @@ fs.readFile(file_name, 'utf-8', (err, buf) => {
     if(!whitelist.files.some(x => x === ext))
         return;
     
-    let file = buf.toString()
+    let file = replace(buf.toString())
 
     if(ext === 'cshtml'){
         // Execute complex parser...
@@ -20,7 +21,7 @@ fs.readFile(file_name, 'utf-8', (err, buf) => {
         let parser = require('./simple-parser.js')
         file = parser(file)
     }
-
+    
     fs.writeFile(file_name, file, (err, data) => {
         console.log('[Done] ' + file_name)
     })

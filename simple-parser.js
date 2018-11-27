@@ -19,14 +19,14 @@ module.exports = function(file){
                 let marker = match[0]
                 
                 let prefix = marker + "[[["
-                let sulfix = "]]]" + marker
+                let suffix = "]]]" + marker
                 
                 if(text[0] === ' ')
                     prefix = '" " + ' + prefix
                 if(text[text.length - 1] === ' ')
-                    sulfix = sulfix + ' + " "'
+                    suffix = suffix + ' + " "'
 
-                return prefix + text.trim() + sulfix
+                return prefix + text.trim() + suffix
             }
         })
 }

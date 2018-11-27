@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jieverson/i18n.parser/issues"
   },
-  "homepage": "https://github.com/jieverson/i18n.parser#readme"
+  "homepage": "https://github.com/jieverson/i18n.parser#readme",
+  "dependencies": {
+    "resx": "^1.2.0"
+  }
 }
