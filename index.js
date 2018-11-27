@@ -12,17 +12,17 @@ fs.readFile(file_name, 'utf-8', (err, buf) => {
     if(!whitelist.files.some(x => x === ext))
         return;
     
-    let file = replace(buf.toString())
-
-    if(ext === 'cshtml'){
-        // Execute complex parser...
-    }
-    else {
-        let parser = require('./simple-parser.js')
-        file = parser(file)
-    }
-    
-    fs.writeFile(file_name, file, (err, data) => {
-        console.log('[Done] ' + file_name)
+    replace(buf.toString(), ext).then(file => {
+        if(ext === 'cshtml') {
+            // Execute complex parser...
+        }
+        else {
+            let parser = require('./simple-parser.js')
+            file = parser(file)
+        }
+        
+        fs.writeFile(file_name, file, (err, data) => {
+            console.log('[Done] ' + file_name)
+        })
     })
 })

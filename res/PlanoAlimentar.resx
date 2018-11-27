@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Adequado" xml:space="preserve">
+    <value>Adequado</value>
+  </data>
+  <data name="AdicionarRefeicao" xml:space="preserve">
+    <value>Adicionar refeição</value>
+  </data>
+  <data name="Alterar" xml:space="preserve">
+    <value>Alterar</value>
+  </data>
+  <data name="Carboidrato" xml:space="preserve">
+    <value>Carboidrato</value>
+  </data>
+  <data name="CarboidratoPercent" xml:space="preserve">
+    <value>% Carboidrato</value>
+  </data>
+  <data name="Cardapios" xml:space="preserve">
+    <value>Cardápios</value>
+  </data>
+  <data name="CarregarCardapios" xml:space="preserve">
+    <value>Usar um dos &lt;strong&gt;Meus Cardápios&lt;/strong&gt;</value>
+  </data>
+  <data name="CarregarOutroPlano" xml:space="preserve">
+    <value>Usar &lt;strong&gt;outro plano do paciente&lt;/strong&gt; como base</value>
+  </data>
+  <data name="CarregarRecordatorio" xml:space="preserve">
+    <value>Usar &lt;strong&gt;Recordatório&lt;/strong&gt; do paciente como base</value>
+  </data>
+  <data name="Configurar" xml:space="preserve">
+    <value>Configurar</value>
+  </data>
+  <data name="Criacao" xml:space="preserve">
+    <value>Criação</value>
+  </data>
+  <data name="DeficienciaTooltip" xml:space="preserve">
+    <value>Possível &lt;b&gt;deficiência&lt;/b&gt; deste nutriente, de acordo com os sintomas da anamnese.</value>
+  </data>
+  <data name="DesmarcarTodos" xml:space="preserve">
+    <value>Desmarcar todos</value>
+  </data>
+  <data name="DiasDaSemana" xml:space="preserve">
+    <value>Dias da semana</value>
+  </data>
+  <data name="Domingo" xml:space="preserve">
+    <value>Domingo</value>
+  </data>
+  <data name="DRI" xml:space="preserve">
+    <value>DRI</value>
+  </data>
+  <data name="Duplicar" xml:space="preserve">
+    <value>Duplicar</value>
+  </data>
+  <data name="Energia" xml:space="preserve">
+    <value>Energia</value>
+  </data>
+  <data name="EstePlanoCalculado" xml:space="preserve">
+    <value>Este plano alimentar é calculado.</value>
+  </data>
+  <data name="EstePlanoCalculadoTooltip" xml:space="preserve">
+    <value>Marque esta opção para utilizar nosa base de dados de alimentos. Assim, é possível realizar cálculos nutricionais e calóricos do Plano Alimentar.&lt;br&gt;Desmarque esta opção para escrever livremente a dieta sem utilizar nossa base de dados e cálculos.</value>
+  </data>
+  <data name="ExcessoTooltip" xml:space="preserve">
+    <value>Possível &lt;b&gt;excesso&lt;/b&gt; deste nutriente, de acordo com os sintomas da anamnese.</value>
+  </data>
+  <data name="GordurasTotais" xml:space="preserve">
+    <value>Gorduras Totais</value>
+  </data>
+  <data name="Grupos" xml:space="preserve">
+    <value>Grupos</value>
+  </data>
+  <data name="GTotais" xml:space="preserve">
+    <value>G. Totais</value>
+  </data>
+  <data name="Inadequado" xml:space="preserve">
+    <value>Inadequado</value>
+  </data>
+  <data name="LimiteExcedidoContentEnd" xml:space="preserve">
+    <value>para o plano atual.&lt;br /&gt;Atualize seu plano para cadastrar mais.</value>
+  </data>
+  <data name="LimiteExcedidoContentStart" xml:space="preserve">
+    <value>Você atingiu o limite de cadastros de</value>
+  </data>
+  <data name="LimiteExcedidoTitleEnd" xml:space="preserve">
+    <value>ilimitados!</value>
+  </data>
+  <data name="LimiteExcedidoTitleStart" xml:space="preserve">
+    <value>Adicione</value>
+  </data>
+  <data name="LipideosPercent" xml:space="preserve">
+    <value>% Lipídeos</value>
+  </data>
+  <data name="MarcarTodos" xml:space="preserve">
+    <value>Marcar todos</value>
+  </data>
+  <data name="NaoUtilizar" xml:space="preserve">
+    <value>Não utilizar</value>
+  </data>
+  <data name="NenhumaRefeicao" xml:space="preserve">
+    <value>Este plano alimentar não possui nenhuma refeição cadastrada. Para cadastrar, clique em &lt;em&gt;Adicionar&lt;/em&gt; ou</value>
+  </data>
+  <data name="NenhumPlanoAlimentarPreCadastrado" xml:space="preserve">
+    <value>Não há nenhum plano alimentar pré-cadastrado. Você poderá cadastrar clicando no menu "Planos Alimentares".</value>
+  </data>
+  <data name="Nutrientes" xml:space="preserve">
+    <value>Nutrientes</value>
+  </data>
+  <data name="PesoTooltip" xml:space="preserve">
+    <value>Peso para ser utilizado no cálculo de Proteína por Kg de Peso, pode ser o peso atual ou desejado conforme a estratégia do tratamento.</value>
+  </data>
+  <data name="PlanosAlimentares" xml:space="preserve">
+    <value>Planos Alimentares</value>
+  </data>
+  <data name="PlanosAlimentaresPreCadastrados" xml:space="preserve">
+    <value>Planos Alimentares Pré-Cadastrados</value>
+  </data>
+  <data name="PoucoInadequado" xml:space="preserve">
+    <value>Pouco inadequado</value>
+  </data>
+  <data name="Proteina" xml:space="preserve">
+    <value>Proteína</value>
+  </data>
+  <data name="ProteinaPercent" xml:space="preserve">
+    <value>% Proteína</value>
+  </data>
+  <data name="Proteina_g_per_Kg_Peso" xml:space="preserve">
+    <value>Proteína g/Kg de Peso</value>
+  </data>
+  <data name="Quantidade" xml:space="preserve">
+    <value>Quantidade</value>
+  </data>
+  <data name="QuartaFeira" xml:space="preserve">
+    <value>Quarta-Feira</value>
+  </data>
+  <data name="QuintaFeira" xml:space="preserve">
+    <value>Quinta-Feira</value>
+  </data>
+  <data name="Recordatorios" xml:space="preserve">
+    <value>Recordatórios</value>
+  </data>
+  <data name="Refeicao" xml:space="preserve">
+    <value>Refeição</value>
+  </data>
+  <data name="Refeicoes" xml:space="preserve">
+    <value>Refeições</value>
+  </data>
+  <data name="Referencia" xml:space="preserve">
+    <value>Referência</value>
+  </data>
+  <data name="Resumo" xml:space="preserve">
+    <value>Resumo</value>
+  </data>
+  <data name="ResumoDeNutrientes" xml:space="preserve">
+    <value>Resumo de Nutrientes</value>
+  </data>
+  <data name="Sabado" xml:space="preserve">
+    <value>Sábado</value>
+  </data>
+  <data name="SalvarComoCardapio" xml:space="preserve">
+    <value>Guardar nos Meus Cardápios</value>
+  </data>
+  <data name="SegundaFeira" xml:space="preserve">
+    <value>Segunda-Feira</value>
+  </data>
+  <data name="SextaFeira" xml:space="preserve">
+    <value>Sexta-Feira</value>
+  </data>
+  <data name="SintomasDeficienciaNutriente" xml:space="preserve">
+    <value>Sintomas de deficiência do nutriente</value>
+  </data>
+  <data name="SintomasExcessoNutriente" xml:space="preserve">
+    <value>Sintomas de excesso do nutriente</value>
+  </data>
+  <data name="SintomasTips" xml:space="preserve">
+    <value>&lt;strong&gt;Dica:&lt;/strong&gt; Preencha os &lt;em&gt;Sintomas&lt;/em&gt; na &lt;em&gt;Anamnese&lt;/em&gt; para analisar as deficiências e os excessos de nutrientes.</value>
+  </data>
+  <data name="TercaFeira" xml:space="preserve">
+    <value>Terça-Feira</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="UltimaAlteracao" xml:space="preserve">
+    <value>Última alteração</value>
+  </data>
+  <data name="ValorCalorico" xml:space="preserve">
+    <value>Valor Calórico</value>
+  </data>
+  <data name="ValoresDeReferencia" xml:space="preserve">
+    <value>Valores de Referência</value>
+  </data>
+  <data name="VCalorico" xml:space="preserve">
+    <value>V. Calórico</value>
+  </data>
+  <data name="VerNutrientes" xml:space="preserve">
+    <value>Ver nutrientes</value>
+  </data>
+  <data name="AcucarTotal" xml:space="preserve">
+    <value>Açucar Total</value>
+  </data>
+  <data name="Calcio" xml:space="preserve">
+    <value>Cálcio</value>
+  </data>
+  <data name="CHO" xml:space="preserve">
+    <value>CHO</value>
+  </data>
+  <data name="Colesterol" xml:space="preserve">
+    <value>Colesterol</value>
+  </data>
+  <data name="Dom" xml:space="preserve">
+    <value>Dom</value>
+  </data>
+  <data name="Ferro" xml:space="preserve">
+    <value>Ferro</value>
+  </data>
+  <data name="Fibra" xml:space="preserve">
+    <value>Fibra</value>
+  </data>
+  <data name="Fosforo" xml:space="preserve">
+    <value>Fósforo (P)</value>
+  </data>
+  <data name="Lipidios" xml:space="preserve">
+    <value>Lipídios</value>
+  </data>
+  <data name="Magnesio" xml:space="preserve">
+    <value>Magnésio</value>
+  </data>
+  <data name="Monoinsaturados" xml:space="preserve">
+    <value>Monoinsaturados</value>
+  </data>
+  <data name="Poliinsaturados" xml:space="preserve">
+    <value>Poli-insaturados</value>
+  </data>
+  <data name="Potassio" xml:space="preserve">
+    <value>Potássio</value>
+  </data>
+  <data name="Qua" xml:space="preserve">
+    <value>Qua</value>
+  </data>
+  <data name="Qui" xml:space="preserve">
+    <value>Qui</value>
+  </data>
+  <data name="Sab" xml:space="preserve">
+    <value>Sab</value>
+  </data>
+  <data name="Saturada" xml:space="preserve">
+    <value>Saturada</value>
+  </data>
+  <data name="Seg" xml:space="preserve">
+    <value>Seg</value>
+  </data>
+  <data name="Selenio" xml:space="preserve">
+    <value>Selênio</value>
+  </data>
+  <data name="Sex" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="Sodio" xml:space="preserve">
+    <value>Sódio</value>
+  </data>
+  <data name="Ter" xml:space="preserve">
+    <value>Ter</value>
+  </data>
+  <data name="Trans" xml:space="preserve">
+    <value>Trans</value>
+  </data>
+  <data name="VitaminaA" xml:space="preserve">
+    <value>Vitamina A (Retinol)</value>
+  </data>
+  <data name="VitaminaB1" xml:space="preserve">
+    <value>Vitamina B1 (Tiamina)</value>
+  </data>
+  <data name="VitaminaB12" xml:space="preserve">
+    <value>Vitamina B12 (Cobalamina)</value>
+  </data>
+  <data name="VitaminaB2" xml:space="preserve">
+    <value>Vitamina B2 (Riboflavina)</value>
+  </data>
+  <data name="VitaminaB3" xml:space="preserve">
+    <value>Vitamina B3 (Niacina)</value>
+  </data>
+  <data name="VitaminaB6" xml:space="preserve">
+    <value>Vitamina B6 (Piridoxina)</value>
+  </data>
+  <data name="VitaminaB9" xml:space="preserve">
+    <value>Vitamina B9 (Ácido fólico)</value>
+  </data>
+  <data name="VitaminaC" xml:space="preserve">
+    <value>Vitamina C (Ácido ascórbico)</value>
+  </data>
+  <data name="VitaminaD" xml:space="preserve">
+    <value>Vitamina D (Calciferol)</value>
+  </data>
+  <data name="VitaminaE" xml:space="preserve">
+    <value>Vitamina E (Tocoferol)</value>
+  </data>
+  <data name="Zinco" xml:space="preserve">
+    <value>Zinco</value>
+  </data>
+  <data name="EsteCardapioCalculado" xml:space="preserve">
+    <value>Este cardápio é calculado.</value>
+  </data>
+  <data name="EsteRecordatorioCalculado" xml:space="preserve">
+    <value>Este recordatório é calculado.</value>
+  </data>
+  <data name="Carboidrato_g_per_Kg_Peso" xml:space="preserve">
+    <value>Carboidrato g/Kg de Peso</value>
+  </data>
+  <data name="Lipidios_g_per_Kg_Peso" xml:space="preserve">
+    <value>Lipídios g/Kg de Peso</value>
+  </data>
+  <data name="GramasKgPeso" xml:space="preserve">
+    <value>g/Kg de peso</value>
+  </data>
+  <data name="Manganes" xml:space="preserve">
+    <value>Manganês</value>
+  </data>
+</root>

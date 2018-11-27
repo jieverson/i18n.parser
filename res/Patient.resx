@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdicionarPrimeiroPaciente" xml:space="preserve">
+    <value>Adicionar meu primeiro paciente</value>
+  </data>
+  <data name="AindaNaoUseiApp" xml:space="preserve">
+    <value>&amp;nbsp;ainda não utiliza o aplicativo do Dietbox.</value>
+  </data>
+  <data name="Anamneses" xml:space="preserve">
+    <value>Anamneses</value>
+  </data>
+  <data name="AppDietboxContent" xml:space="preserve">
+    <value>Com o aplicativo do Dietbox o paciente tem acesso a todas as informações do tratamento realizado, bem como a possibilidade de ter um contato muito mais próximo com seu nutricionista ou médico!</value>
+  </data>
+  <data name="AppDietboxTitle" xml:space="preserve">
+    <value>Conheça o app do Dietbox</value>
+  </data>
+  <data name="AvaliacoesAntropometricas" xml:space="preserve">
+    <value>Avaliações Antropométricas</value>
+  </data>
+  <data name="CidadeTooltip" xml:space="preserve">
+    <value>Digite e selecione o nome da cidade</value>
+  </data>
+  <data name="ComparativoAntropometricoAdulto" xml:space="preserve">
+    <value>Comparativo Antropométrico de Adulto</value>
+  </data>
+  <data name="ComparativoAntropometricoGestante" xml:space="preserve">
+    <value>Comparativo Antropométrico de Gestante</value>
+  </data>
+  <data name="ComparativoAntropometricoInfantil" xml:space="preserve">
+    <value>Comparativo Antropométrico Infantil</value>
+  </data>
+  <data name="ComparativoAvaliacaoLaboratorial" xml:space="preserve">
+    <value>Comparativo de Avaliação Laboratorial</value>
+  </data>
+  <data name="DataDeCriacao" xml:space="preserve">
+    <value>Data de criação</value>
+  </data>
+  <data name="EditarPerfil" xml:space="preserve">
+    <value>Editar Perfil</value>
+  </data>
+  <data name="EmailWarning" xml:space="preserve">
+    <value>O Dietbox utilizará este e-mail para enviar o plano alimentar, avaliação antropométrica, mensagens, entre outros.
+                Além permitir o acesso do paciente ao aplicativo do Dietbox! Veja mais detalhes</value>
+  </data>
+  <data name="EscreverRecado" xml:space="preserve">
+    <value>Escrever Recado</value>
+  </data>
+  <data name="GastosEnergeticos" xml:space="preserve">
+    <value>Gastos Energéticos (GET, GEB, TMB e etc.)</value>
+  </data>
+  <data name="GraficosAntropometricos" xml:space="preserve">
+    <value>Gráficos Antropométricos</value>
+  </data>
+  <data name="Informacoes" xml:space="preserve">
+    <value>Informações</value>
+  </data>
+  <data name="LimiteExcedidoContent" xml:space="preserve">
+    <value>Você atingiu o limite de cadastros de pacientes para o plano atual.&lt;br /&gt;
+                    Atualize seu plano para cadastrar mais.</value>
+  </data>
+  <data name="LimiteExcedidoTitle" xml:space="preserve">
+    <value>Atualize seu plano para cadastrar mais pacientes!</value>
+  </data>
+  <data name="NenhumaAnamnese" xml:space="preserve">
+    <value>Não há nenhuma anamnese cadastrada.</value>
+  </data>
+  <data name="NenhumaAntropometria" xml:space="preserve">
+    <value>Não há nenhuma avaliação antropométrica cadastrada.</value>
+  </data>
+  <data name="NenhumaAvaliacaoLaboratorial" xml:space="preserve">
+    <value>Não há avaliações laboratoriais cadastradas.</value>
+  </data>
+  <data name="NenhumaPrescricao" xml:space="preserve">
+    <value>Não há prescrições cadastradas.</value>
+  </data>
+  <data name="NenhumGastoEnergetico" xml:space="preserve">
+    <value>Não há gastos energéticos cadastrados.</value>
+  </data>
+  <data name="NenhumPlanoAlimentar" xml:space="preserve">
+    <value>Não há nenhum plano alimentar ativo registrado.</value>
+  </data>
+  <data name="NenhumRecordatorio" xml:space="preserve">
+    <value>Não há nenhum recordatório registrado.</value>
+  </data>
+  <data name="Ocupacao" xml:space="preserve">
+    <value>Ocupação</value>
+  </data>
+  <data name="Ordenar" xml:space="preserve">
+    <value>Ordenar</value>
+  </data>
+  <data name="OutrasInformacoes" xml:space="preserve">
+    <value>Outras informações</value>
+  </data>
+  <data name="PacienteTooltip" xml:space="preserve">
+    <value>Clique aqui para acessar a página do paciente.</value>
+  </data>
+  <data name="PermissaoInfComplementares" xml:space="preserve">
+    <value>O paciente pode ver todas as informações complementares.</value>
+  </data>
+  <data name="PermissaoReceitas" xml:space="preserve">
+    <value>O paciente pode ver todas as receitas.</value>
+  </data>
+  <data name="PermissoesApp" xml:space="preserve">
+    <value>Permissões para o aplicativo</value>
+  </data>
+  <data name="Prescricoes" xml:space="preserve">
+    <value>Prescrições</value>
+  </data>
+  <data name="PrevisaoDeNascimento" xml:space="preserve">
+    <value>Previsão de Nascimento</value>
+  </data>
+  <data name="RecordatoriosAlimentares" xml:space="preserve">
+    <value>Recordatórios Alimentares</value>
+  </data>
+  <data name="ReenviarConvite" xml:space="preserve">
+    <value>Reenviar convite</value>
+  </data>
+  <data name="SemPacienteContent" xml:space="preserve">
+    <value>A primeira coisa a fazer é cadastrar um paciente. Clique no botão abaixo.</value>
+  </data>
+  <data name="SemPacienteTitle" xml:space="preserve">
+    <value>Vamos começar?</value>
+  </data>
+  <data name="SomenteAtivos" xml:space="preserve">
+    <value>Somente ativos</value>
+  </data>
+  <data name="TutoriaisTitle" xml:space="preserve">
+    <value>Precisa de uma ajuda?</value>
+  </data>
+  <data name="UltimaConsulta" xml:space="preserve">
+    <value>Última Consulta</value>
+  </data>
+  <data name="VisaoGeral" xml:space="preserve">
+    <value>Visão Geral</value>
+  </data>
+  <data name="PrecisaSenha" xml:space="preserve">
+    <value>Precisa cadastrar senha para utilizar o aplicativo</value>
+  </data>
+</root>

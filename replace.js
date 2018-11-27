@@ -1,14 +1,12 @@
-const resources = require('./resources.js')
+const replace_js = require('./replace-js.js')
+const replace_cs = require('./replace-cs.js')
 
-let keys = Object.keys(resources)
-
-module.exports = function(file) {
-    keys.forEach(key => {
-        let value = resources[key]
-        let toReplace = "l('" + key + "')"
-        file = file.split(toReplace).join("'" + value + "'")
-        toReplace = 'l("' + key + '")'
-        file = file.split(toReplace).join('"' + value + '"')
-    })
-    return file
-}
+module.exports = (file, ext) => 
+new Promise((resolve, reject) => {
+    if(ext === 'js')
+        resolve(replace_js(file))
+    else if(ext === 'cs' || ext === 'cshtml')
+        resolve(replace_cs(file))
+    else
+        resolve(file)
+})

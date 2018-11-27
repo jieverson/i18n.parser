@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Abdomen" xml:space="preserve">
+    <value>Abdomen</value>
+  </data>
+  <data name="Abdominal" xml:space="preserve">
+    <value>Abdominal</value>
+  </data>
+  <data name="AdultoIdoso" xml:space="preserve">
+    <value>Adulto/Idoso</value>
+  </data>
+  <data name="AguaCorporal" xml:space="preserve">
+    <value>Água Corporal</value>
+  </data>
+  <data name="AlturaDoJoelho" xml:space="preserve">
+    <value>Altura do Joelho</value>
+  </data>
+  <data name="AlturaDoJoelhoTitle" xml:space="preserve">
+    <value>Estimativas baseadas na Altura do Joelho</value>
+  </data>
+  <data name="AlturaDoJoelhoTooltip" xml:space="preserve">
+    <value>Estimativas baseadas na altura do joelho (Knee Height), são especialmente utilizadas na geriatria e/ou pacientes acamados.</value>
+  </data>
+  <data name="AntebracoDireito" xml:space="preserve">
+    <value>Antebraço Direito</value>
+  </data>
+  <data name="Atual" xml:space="preserve">
+    <value>Atual</value>
+  </data>
+  <data name="AvaliacaoGanhoDePeso" xml:space="preserve">
+    <value>Dados da gestação</value>
+  </data>
+  <data name="AxilarMedia" xml:space="preserve">
+    <value>Axilar Média</value>
+  </data>
+  <data name="Biceps" xml:space="preserve">
+    <value>Bíceps</value>
+  </data>
+  <data name="Bioimpedancia" xml:space="preserve">
+    <value>Bioimpedância</value>
+  </data>
+  <data name="BracoContraidoDireito" xml:space="preserve">
+    <value>Braço contraido direito</value>
+  </data>
+  <data name="BracoContraidoEsquerdo" xml:space="preserve">
+    <value>Braço contraido esquerdo</value>
+  </data>
+  <data name="BracoRelaxadoDireito" xml:space="preserve">
+    <value>Braço relaxado direito</value>
+  </data>
+  <data name="BracoRelaxadoEsquerdo" xml:space="preserve">
+    <value>Braço relaxado esquerdo</value>
+  </data>
+  <data name="CarregarUltimaAntropometria" xml:space="preserve">
+    <value>Carregar Dados da Última Antropometria</value>
+  </data>
+  <data name="Cintura" xml:space="preserve">
+    <value>Cintura</value>
+  </data>
+  <data name="CircunferenciaBracoRelaxadoDireito" xml:space="preserve">
+    <value>Circunferência do braço relaxado direito</value>
+  </data>
+  <data name="CircunferenciaPanturrilhaDireita" xml:space="preserve">
+    <value>Circunferência da panturrilha direita</value>
+  </data>
+  <data name="Circunferencias" xml:space="preserve">
+    <value>Circunferências</value>
+  </data>
+  <data name="ComposicaoCorporal" xml:space="preserve">
+    <value>Composição Corporal</value>
+  </data>
+  <data name="Coxa" xml:space="preserve">
+    <value>Coxa</value>
+  </data>
+  <data name="CoxaDireita" xml:space="preserve">
+    <value>Coxa direita</value>
+  </data>
+  <data name="CoxaEsquerda" xml:space="preserve">
+    <value>Coxa esquerda</value>
+  </data>
+  <data name="CoxaProximalDireita" xml:space="preserve">
+    <value>Coxa proximal direita</value>
+  </data>
+  <data name="CoxaProximalEsquerda" xml:space="preserve">
+    <value>Coxa proximal esquerda</value>
+  </data>
+  <data name="DiametrosOsseos" xml:space="preserve">
+    <value>Diâmetros Ósseos</value>
+  </data>
+  <data name="Disponibilidade" xml:space="preserve">
+    <value>Disponibilidade</value>
+  </data>
+  <data name="DobraSubescapular" xml:space="preserve">
+    <value>Dobra subescapular</value>
+  </data>
+  <data name="EstimarAlturaPeso" xml:space="preserve">
+    <value>Estimar altura e peso</value>
+  </data>
+  <data name="Femur" xml:space="preserve">
+    <value>Fêmur</value>
+  </data>
+  <data name="Graficos" xml:space="preserve">
+    <value>Gráficos</value>
+  </data>
+  <data name="IdadeGestacional" xml:space="preserve">
+    <value>Idade Gestacional</value>
+  </data>
+  <data name="IMC" xml:space="preserve">
+    <value>IMC</value>
+  </data>
+  <data name="LimiteExcedidoContent" xml:space="preserve">
+    <value>Você atingiu o limite de cadastros para o plano atual. Assine agora para continuar!</value>
+  </data>
+  <data name="LimiteExcedidoTitle" xml:space="preserve">
+    <value>Escolha um plano para continuar!</value>
+  </data>
+  <data name="MassaGorda" xml:space="preserve">
+    <value>Massa Gorda</value>
+  </data>
+  <data name="MassaMagra" xml:space="preserve">
+    <value>Massa Magra</value>
+  </data>
+  <data name="MostrarNoApp" xml:space="preserve">
+    <value>Mostrar no aplicativo do paciente</value>
+  </data>
+  <data name="NenhumAnexo" xml:space="preserve">
+    <value>Não há anexos para esta avaliação antropométrica, para adicionar clique no botão Adicionar ou</value>
+  </data>
+  <data name="NenhumPesoAltura" xml:space="preserve">
+    <value>Para calcular o resultado, preencha os campos acima.</value>
+  </data>
+  <data name="Ombro" xml:space="preserve">
+    <value>Ombro</value>
+  </data>
+  <data name="PanturrilhaDireita" xml:space="preserve">
+    <value>Panturrilha direita</value>
+  </data>
+  <data name="PanturrilhaEsquerda" xml:space="preserve">
+    <value>Panturrilha esquerda</value>
+  </data>
+  <data name="PanturrilhaMedial" xml:space="preserve">
+    <value>Panturrilha Medial</value>
+  </data>
+  <data name="Peitoral" xml:space="preserve">
+    <value>Peitoral</value>
+  </data>
+  <data name="PercAguaCorporal" xml:space="preserve">
+    <value>% Água Corporal</value>
+  </data>
+  <data name="PercMassaGorda" xml:space="preserve">
+    <value>% Massa Gorda</value>
+  </data>
+  <data name="PercMassaMagra" xml:space="preserve">
+    <value>% Massa Magra</value>
+  </data>
+  <data name="Pescoco" xml:space="preserve">
+    <value>Pescoço</value>
+  </data>
+  <data name="PesoAtual" xml:space="preserve">
+    <value>Peso atual</value>
+  </data>
+  <data name="PesoIdeal" xml:space="preserve">
+    <value>Peso Ideal</value>
+  </data>
+  <data name="PesoMuscular" xml:space="preserve">
+    <value>Peso Muscular</value>
+  </data>
+  <data name="PesoOsseo" xml:space="preserve">
+    <value>Peso Ósseo</value>
+  </data>
+  <data name="PesoPreGestacional" xml:space="preserve">
+    <value>Peso Pré-Gestacional</value>
+  </data>
+  <data name="PesoResidual" xml:space="preserve">
+    <value>Peso Residual</value>
+  </data>
+  <data name="PregasCutaneas" xml:space="preserve">
+    <value>Pregas Cutâneas</value>
+  </data>
+  <data name="Protocolo" xml:space="preserve">
+    <value>Protocolo</value>
+  </data>
+  <data name="Punho" xml:space="preserve">
+    <value>Punho</value>
+  </data>
+  <data name="Quadril" xml:space="preserve">
+    <value>Quadril</value>
+  </data>
+  <data name="ReferenciaOMS" xml:space="preserve">
+    <value>Referência OMS</value>
+  </data>
+  <data name="ResultadoWarning" xml:space="preserve">
+    <value>Para obter os resultados corretos preencha &lt;em&gt;Altura&lt;/em&gt;, &lt;em&gt;Peso atual&lt;/em&gt; e &lt;em&gt;Pregas Cutâneas&lt;/em&gt; de acordo com o protocolo escolhido.</value>
+  </data>
+  <data name="RiscoCardioTooltip" xml:space="preserve">
+    <value>Preencha para ver o resultado de risco cardiovascular sugerido pela OMS.</value>
+  </data>
+  <data name="Semanas" xml:space="preserve">
+    <value>semanas</value>
+  </data>
+  <data name="Situacao" xml:space="preserve">
+    <value>Situação</value>
+  </data>
+  <data name="Subescapular" xml:space="preserve">
+    <value>Subescapular</value>
+  </data>
+  <data name="Suprailiaca" xml:space="preserve">
+    <value>Suprailíaca</value>
+  </data>
+  <data name="Torax" xml:space="preserve">
+    <value>Tórax</value>
+  </data>
+  <data name="Triceps" xml:space="preserve">
+    <value>Tríceps</value>
+  </data>
+  <data name="UsarValores" xml:space="preserve">
+    <value>Usar Valores</value>
+  </data>
+  <data name="DensidadeCorporal" xml:space="preserve">
+    <value>Densidade Corporal</value>
+  </data>
+  <data name="EstaturaParaIdade" xml:space="preserve">
+    <value>Estatura para Idade</value>
+  </data>
+  <data name="GanhoDePeso" xml:space="preserve">
+    <value>Ganho de Peso</value>
+  </data>
+  <data name="IMCAtual" xml:space="preserve">
+    <value>IMC Atual</value>
+  </data>
+  <data name="IMCPreGestacional" xml:space="preserve">
+    <value>IMC Pré-Gestacional</value>
+  </data>
+  <data name="PesoParaEstatura" xml:space="preserve">
+    <value>Peso para Estatura</value>
+  </data>
+  <data name="PesoParaIdade" xml:space="preserve">
+    <value>Peso para Idade</value>
+  </data>
+  <data name="RazaoCinturaQuadril" xml:space="preserve">
+    <value>Razão cintura / quadril</value>
+  </data>
+  <data name="RecomendacaoGanhoDePeso" xml:space="preserve">
+    <value>Recomendação de Ganho de Peso</value>
+  </data>
+  <data name="Referencia" xml:space="preserve">
+    <value>Referência</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="UltimaMenstruacao" xml:space="preserve">
+    <value>Primeiro dia da última menstruação</value>
+  </data>
+  <data name="PrevisaoParto" xml:space="preserve">
+    <value>Previsão do parto</value>
+  </data>
+  <data name="EditarAntropometria" xml:space="preserve">
+    <value>Editar Avaliação Antropométrica</value>
+  </data>
+  <data name="RealizarAntropometria" xml:space="preserve">
+    <value>Realizar Avaliação Antropométrica</value>
+  </data>
+  <data name="CircunferenciasTitle" xml:space="preserve">
+    <value>- Circunferências:</value>
+  </data>
+  <data name="DiametrosOsseosTitle" xml:space="preserve">
+    <value>- Diâmetros Ósseos:</value>
+  </data>
+  <data name="PregasCutaneasTitle" xml:space="preserve">
+    <value>- Pregas Cutâneas:</value>
+  </data>
+  <data name="IdadeMetabolica" xml:space="preserve">
+    <value>Idade Metabólica</value>
+  </data>
+  <data name="PercGorduraVisceral" xml:space="preserve">
+    <value>% Gordura Visceral</value>
+  </data>
+  <data name="ReferenciaTooltip" xml:space="preserve">
+    <value>OMS/OPAS</value>
+  </data>
+  <data name="PunhoDireito" xml:space="preserve">
+    <value>Punho Direito</value>
+  </data>
+  <data name="PunhoEsquerdo" xml:space="preserve">
+    <value>Punho Esquerdo</value>
+  </data>
+  <data name="AntebracoEsquerdo" xml:space="preserve">
+    <value>Antebraço Esquerdo</value>
+  </data>
+</root>

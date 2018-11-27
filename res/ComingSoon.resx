@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACompleteSoftware" xml:space="preserve">
+    <value>A complete software ...</value>
+  </data>
+  <data name="ACompleteSoftwareText" xml:space="preserve">
+    <value>Dietbox is a software for nutritionists. It is practical, agile and modern, besides being the best software in the marketing, it retains patients by monitoring their treatment by integrating with your application.</value>
+  </data>
+  <data name="AndMore" xml:space="preserve">
+    <value>And much more...</value>
+  </data>
+  <data name="ForNutritionists" xml:space="preserve">
+    <value>for nutrition professionals...</value>
+  </data>
+  <data name="ForNutritionists1" xml:space="preserve">
+    <value>Diet prescription</value>
+  </data>
+  <data name="ForNutritionists2" xml:space="preserve">
+    <value>Anamnesis</value>
+  </data>
+  <data name="ForNutritionists3" xml:space="preserve">
+    <value>Anthropometry</value>
+  </data>
+  <data name="ForNutritionists4" xml:space="preserve">
+    <value>Customized food</value>
+  </data>
+  <data name="ForNutritionists5" xml:space="preserve">
+    <value>Recall</value>
+  </data>
+  <data name="ForNutritionists6" xml:space="preserve">
+    <value>Food substitution list</value>
+  </data>
+  <data name="ForNutritionists7" xml:space="preserve">
+    <value>Schedule</value>
+  </data>
+  <data name="ForNutritionists8" xml:space="preserve">
+    <value>Menus</value>
+  </data>
+  <data name="ForNutritionists9" xml:space="preserve">
+    <value>Recipes</value>
+  </data>
+  <data name="ForPatients" xml:space="preserve">
+    <value>and for patients...</value>
+  </data>
+  <data name="ForPatients1" xml:space="preserve">
+    <value>Visualize diet</value>
+  </data>
+  <data name="ForPatients2" xml:space="preserve">
+    <value>Check anthropometric</value>
+  </data>
+  <data name="ForPatients3" xml:space="preserve">
+    <value>Alerts at mealtimes</value>
+  </data>
+  <data name="ForPatients4" xml:space="preserve">
+    <value>Send and receive photos</value>
+  </data>
+  <data name="ForPatients5" xml:space="preserve">
+    <value>Fill the food diary</value>
+  </data>
+  <data name="ForPatients6" xml:space="preserve">
+    <value>Chat with nutritionist</value>
+  </data>
+  <data name="ForPatients7" xml:space="preserve">
+    <value>Change profile picture</value>
+  </data>
+  <data name="ForPatients8" xml:space="preserve">
+    <value>Recipes from nutritionist</value>
+  </data>
+  <data name="KnowMore" xml:space="preserve">
+    <value>Know more</value>
+  </data>
+  <data name="PanelBlue" xml:space="preserve">
+    <value>Simplicity and efficiency in one place&lt;br /&gt;
+technology in the service of nutrition</value>
+  </data>
+  <data name="PanelComunication" xml:space="preserve">
+    <value>Organize your communication</value>
+  </data>
+  <data name="PanelComunicationText" xml:space="preserve">
+    <value>How about having history of all your patient's chat and messages on your software? Dietbox makes it possible. You can even send message to all his patients at once! Isn't it amazing?</value>
+  </data>
+  <data name="PanelFidelize" xml:space="preserve">
+    <value>Build customer loyalty</value>
+  </data>
+  <data name="PanelFidelizeText" xml:space="preserve">
+    <value>Using the application, your patient is increasingly engaged and committed to treatment, increasing the chances of the patient return to your office!</value>
+  </data>
+  <data name="PanelFree" xml:space="preserve">
+    <value>Free</value>
+  </data>
+  <data name="PanelFreeText" xml:space="preserve">
+    <value>Have the opportunity to experience all the benefits of using the Dietbox without paying anything!</value>
+  </data>
+  <data name="PanelGreen" xml:space="preserve">
+    <value>The software that helps nutritionists&lt;br /&gt;
+to build customer loyalty</value>
+  </data>
+  <data name="PanelNoPrinter" xml:space="preserve">
+    <value>Print less paper</value>
+  </data>
+  <data name="PanelNoPrinterText" xml:space="preserve">
+    <value>Dietbox makes your patients' diet available available directly on their smartphone. And even if your patient does not use the app, you can send the diet by email.</value>
+  </data>
+  <data name="PanelOnline" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="PanelOnlineText" xml:space="preserve">
+    <value>Access Dietbox from anywhere! Tablet or notebook, at office or at home. The Dietbox is always available whenever you need ir!</value>
+  </data>
+  <data name="PanelSecurity" xml:space="preserve">
+    <value>Safe</value>
+  </data>
+  <data name="PanelSecurityText" xml:space="preserve">
+    <value>Information registered in Dietbox are kept into the cloud, and you do not have to worry about backup or problems with your computer. Your data is safe!</value>
+  </data>
+  <data name="PanelTime" xml:space="preserve">
+    <value>Save time</value>
+  </data>
+  <data name="PanelTimeText" xml:space="preserve">
+    <value>The Dietbox was developed along with nutrition community. Everything in Dietbox was thought to be practical and easy!</value>
+  </data>
+  <data name="PanelUpdated" xml:space="preserve">
+    <value>Never be outdated</value>
+  </data>
+  <data name="PanelUpdatedText" xml:space="preserve">
+    <value>Being online, the Dietbox is always updated. You do not need to install anything and always have the latest features available.</value>
+  </data>
+  <data name="PanelYellow" xml:space="preserve">
+    <value>The best software for nutritionist&lt;br /&gt;The best application for the patient</value>
+  </data>
+  <data name="TryIt" xml:space="preserve">
+    <value>Try it</value>
+  </data>
+  <data name="TryItForFree" xml:space="preserve">
+    <value>Try it for free!</value>
+  </data>
+  <data name="WatchOurVideo" xml:space="preserve">
+    <value>Watch our video</value>
+  </data>
+  <data name="WhatIsIt" xml:space="preserve">
+    <value>What is it?</value>
+  </data>
+</root>
