@@ -17,15 +17,16 @@ module.exports = function(file){
                 return match
             else {
                 let marker = match[0]
-                let result = ''
-                // TODO: end
+                
+                let prefix = marker + "[[["
+                let sulfix = "]]]" + marker
+                
                 if(text[0] === ' ')
-                    return '" " + ' +  marker + 
-                        "[[[" + text.substr(1, text.length - 1) 
-                        + "]]]" + marker
-                else
-                    return marker + 
-                        "[[[" + text + "]]]" + marker
+                    prefix = '" " + ' + prefix
+                if(text[text.length - 1] === ' ')
+                    sulfix = sulfix + ' + " "'
+
+                return prefix + text.trim() + sulfix
             }
         })
 }
