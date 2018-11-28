@@ -2,7 +2,7 @@ const blacklist = require('./blacklist.js')
 
 module.exports = function(file){
     return file.replace(
-        /('[^']*')|("[^"]*")/g, 
+        /('[^']*')|("[^(^\\")]*")/g, 
         match => {
             let text = match.slice(1, -1)
             if(blacklist.equals.some(
@@ -13,6 +13,10 @@ module.exports = function(file){
                     x => text.startsWith(x))
                 || !isNaN(text)
                 || !text.match(/\w/g)
+                || text.match(/^id[A-Z]/i)
+                || text.match(/^Max[A-Z]/i)
+                || (!text.includes(' ') && text.length > 12)
+                || (!text.includes(' ') && text.includes('-'))
             )
                 return match
             else {

@@ -14,7 +14,8 @@ fs.readFile(file_name, 'utf-8', (err, buf) => {
     
     replace(buf.toString(), ext).then(file => {
         if(ext === 'cshtml') {
-            // Execute complex parser...
+            let parser = require('./html-parser.js')
+            file = parser(file)
         }
         else {
             let parser = require('./simple-parser.js')

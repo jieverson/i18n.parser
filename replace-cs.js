@@ -11,13 +11,15 @@ new Promise((resolve, reject) => {
                     resx2js(buf.toString(), (err, res) => {
                         let keys = Object.keys(res)
                         keys.forEach(key => {
-                            let value = res[key]
+                            let value = '[[[' + res[key] + ']]]'
                             let name = resx.split('.')
                             name = name[name.length - 2]
                             let toReplace = '@Resources.' + name + '.' + key
                             file = file.split(toReplace).join(value)
                             toReplace = 'Resources.' + name + '.' + key
-                            file = file.split(toReplace).join('"' + value + '"')
+                            let prefix = value.includes('\n') ? '@' : ''
+                            file = file.split(toReplace)
+                                .join(prefix + '"' + value + '"')
                         })
                         resolve(file)
                     })
