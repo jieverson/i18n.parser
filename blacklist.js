@@ -1,10 +1,10 @@
 module.exports = {
     startsWith: [
-        '#',
         '.',
         '&',
         '?',
         '_',
+        'x.',
     ],
     equals: [
         '',
@@ -75,8 +75,12 @@ module.exports = {
         'Print',
         'report',
         '*|FNAME|*',
+        '&nbsp;',
     ],
     includes: [
+        '#',
+        '+',
+        '*',
         '/',
         '[',
         ']',
@@ -86,6 +90,8 @@ module.exports = {
         '<',
         '>',
         '=',
+        '&&',
+        '||',
         'kendo',
         'iugu',
         'input',
@@ -100,6 +106,7 @@ module.exports = {
         'confirm.',
         'btn-',
         'bg-',
+        'd-',
         'border-',
         'text-',
         'badge-',

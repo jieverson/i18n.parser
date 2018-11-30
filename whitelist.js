@@ -3,5 +3,10 @@ module.exports = {
         'js',
         'cs',
         'cshtml'
+    ],
+    attrs: [
+        'title',
+        'data-content',
+        'placeholder'
     ]
 }

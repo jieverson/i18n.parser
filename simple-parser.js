@@ -2,7 +2,7 @@ const blacklist = require('./blacklist.js')
 
 module.exports = function(file){
     return file.replace(
-        /('[^']*')|("[^(^\\")]*")/g, 
+        /('[^']*')|("[^(^\\")]*")/g,
         match => {
             let text = match.slice(1, -1)
             if(blacklist.equals.some(
