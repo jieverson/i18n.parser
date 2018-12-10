@@ -43,6 +43,7 @@ module.exports = {
         'g',
         'kcal',
         'error',
+        'buttons',
         'canceled',
         'Edit',
         'content',
